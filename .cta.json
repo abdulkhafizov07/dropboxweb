@@ -1,0 +1,28 @@
+{
+  "projectName": ".",
+  "mode": "file-router",
+  "typescript": true,
+  "tailwind": true,
+  "packageManager": "pnpm",
+  "addOnOptions": {
+    "prisma": {
+      "database": "postgres"
+    }
+  },
+  "git": true,
+  "version": 1,
+  "framework": "react-cra",
+  "chosenAddOns": [
+    "eslint",
+    "sentry",
+    "db",
+    "prisma",
+    "form",
+    "shadcn",
+    "t3env",
+    "table",
+    "start",
+    "store",
+    "tanstack-query"
+  ]
+}
